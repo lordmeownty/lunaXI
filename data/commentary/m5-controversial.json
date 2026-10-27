@@ -1,0 +1,21 @@
+{
+ "match_id": "m5-controversial",
+ "synthetic": true,
+ "lines": [
+  {
+   "speaker": "Commentator A",
+   "t_match": 3135,
+   "text": "That's a red card for Stonebridge Albion, and they're already a goal down."
+  },
+  {
+   "speaker": "Commentator B",
+   "t_match": 3880,
+   "text": "The penalty goes into the top right corner, the keeper had no chance."
+  },
+  {
+   "speaker": "Commentator A",
+   "t_match": 5520,
+   "text": "Ten men, and Stonebridge Albion win it with a solo run, no passes at all, pure individual brilliance."
+  }
+ ]
+}

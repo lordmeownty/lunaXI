@@ -1,0 +1,21 @@
+{
+ "match_id": "m4-underdog",
+ "synthetic": true,
+ "lines": [
+  {
+   "speaker": "Commentator A",
+   "t_match": 2060,
+   "text": "Ashford Athletic have barely had a sniff, but that first goal was a lovely long move of about ten passes."
+  },
+  {
+   "speaker": "Commentator B",
+   "t_match": 3000,
+   "text": "Westvale City have had well over sixty percent of the ball and still look short of ideas."
+  },
+  {
+   "speaker": "Commentator A",
+   "t_match": 4800,
+   "text": "Ashford Athletic have had more shots than Westvale City today, that's the story."
+  }
+ ]
+}

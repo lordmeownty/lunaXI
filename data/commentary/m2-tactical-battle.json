@@ -1,0 +1,11 @@
+{
+ "match_id": "m2-tactical-battle",
+ "synthetic": true,
+ "lines": [
+  {
+   "speaker": "Commentator A",
+   "t_match": 4270,
+   "text": "What a goal, that's a 8-pass move finished by Emre Okoro."
+  }
+ ]
+}

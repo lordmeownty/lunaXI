@@ -1,0 +1,103 @@
+{
+ "definition": {
+  "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+   "teamsWebhookUrl": {
+    "type": "SecureString",
+    "defaultValue": ""
+   }
+  },
+  "triggers": {
+   "package_event": {
+    "type": "Request",
+    "kind": "Http",
+    "inputs": {
+     "schema": {
+      "type": "object"
+     }
+    }
+   }
+  },
+  "actions": {
+   "Has_Teams_webhook": {
+    "type": "If",
+    "expression": {
+     "and": [
+      {
+       "not": {
+        "equals": [
+         "@parameters('teamsWebhookUrl')",
+         ""
+        ]
+       }
+      }
+     ]
+    },
+    "actions": {
+     "Post_Adaptive_Card": {
+      "type": "Http",
+      "inputs": {
+       "method": "POST",
+       "uri": "@parameters('teamsWebhookUrl')",
+       "body": {
+        "type": "message",
+        "attachments": [
+         {
+          "contentType": "application/vnd.microsoft.card.adaptive",
+          "content": {
+           "type": "AdaptiveCard",
+           "version": "1.5",
+           "body": [
+            {
+             "type": "TextBlock",
+             "size": "Medium",
+             "weight": "Bolder",
+             "text": "Luna XI \u00b7 package @{triggerBody()?['kind']}"
+            },
+            {
+             "type": "FactSet",
+             "facts": [
+              {
+               "title": "Package",
+               "value": "@{triggerBody()?['package_id']} \u00b7 @{triggerBody()?['title']}"
+              },
+              {
+               "title": "Submitted by",
+               "value": "@{triggerBody()?['submitted_by']}"
+              },
+              {
+               "title": "Decided by",
+               "value": "@{coalesce(triggerBody()?['decided_by'],'awaiting editor')}"
+              }
+             ]
+            }
+           ]
+          }
+         }
+        ]
+       }
+      }
+     }
+    },
+    "else": {
+     "actions": {}
+    }
+   },
+   "Response": {
+    "type": "Response",
+    "runAfter": {
+     "Has_Teams_webhook": [
+      "Succeeded",
+      "Failed",
+      "Skipped"
+     ]
+    },
+    "inputs": {
+     "statusCode": 202
+    }
+   }
+  },
+  "outputs": {}
+ }
+}

@@ -1,0 +1,7 @@
+{"home_team_id": "harbour-city", "away_team_id": "kingsford-rovers", "events": [
+ {"minute": 11, "second": 40, "type": "goal", "team_id": "kingsford-rovers", "build_up_passes": 4},
+ {"minute": 30, "second": 55, "type": "goal", "team_id": "kingsford-rovers", "build_up_passes": 6},
+ {"minute": 58, "second": 0, "type": "substitution", "team_id": "harbour-city"},
+ {"minute": 63, "second": 10, "type": "goal", "team_id": "harbour-city", "build_up_passes": 3},
+ {"minute": 77, "second": 20, "type": "goal", "team_id": "harbour-city", "build_up_passes": 7},
+ {"minute": 88, "second": 5, "type": "goal", "team_id": "harbour-city", "build_up_passes": 5}]}

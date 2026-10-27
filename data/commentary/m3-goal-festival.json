@@ -1,0 +1,11 @@
+{
+ "match_id": "m3-goal-festival",
+ "synthetic": true,
+ "lines": [
+  {
+   "speaker": "Commentator A",
+   "t_match": 5170,
+   "text": "What a goal, that's a 4-pass move finished by Galen Castell."
+  }
+ ]
+}

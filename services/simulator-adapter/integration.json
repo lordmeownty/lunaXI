@@ -1,0 +1,13 @@
+{
+  "name": "Open Football",
+  "repository": "https://github.com/ZOXEXIVO/open-football",
+  "revision": "bfb2273053aab5825b5f58e9f588211c2d7794cf",
+  "release": "v1.8.183",
+  "license": "Apache-2.0",
+  "usage": "build-time synthetic outcome engine",
+  "runtime_dependency": false,
+  "default_database_used": false,
+  "input": "Luna XI fictional clubs and players",
+  "output": "five normalised Luna XI match packages",
+  "pipeline": ["fictional roster export", "Open Football simulation", "event normalisation", "spatial replay enrichment", "ground-truth verification"]
+}

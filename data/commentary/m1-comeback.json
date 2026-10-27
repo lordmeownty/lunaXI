@@ -1,0 +1,11 @@
+{
+ "match_id": "m1-comeback",
+ "synthetic": true,
+ "lines": [
+  {
+   "speaker": "Commentator A",
+   "t_match": 5290,
+   "text": "What a goal, that's a 5-pass move finished by Pavel Navarro."
+  }
+ ]
+}

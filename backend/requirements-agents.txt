@@ -1,0 +1,3 @@
+# Microsoft Agent Framework (optional). Luna runs the same workflow graph on its builtin engine if this is absent.
+#   pip install -r requirements-agents.txt --pre
+agent-framework

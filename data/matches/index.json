@@ -1,0 +1,147 @@
+[
+ {
+  "id": "m1-comeback",
+  "title": "The Comeback",
+  "subtitle": "Two goals down. One change. Everything shifts.",
+  "home": {
+   "id": "harbour-city",
+   "name": "Harbour City FC",
+   "short": "HCF",
+   "colour": "#2563eb"
+  },
+  "away": {
+   "id": "kingsford-rovers",
+   "name": "Kingsford Rovers",
+   "short": "KRV",
+   "colour": "#dc2626"
+  },
+  "final_score": {
+   "home": 3,
+   "away": 2
+  },
+  "showcase": [
+   "Momentum shift",
+   "Substitution impact",
+   "Catch-me-up"
+  ],
+  "venue": "Harbourside Park",
+  "events": 1476,
+  "replays": 5
+ },
+ {
+  "id": "m2-tactical-battle",
+  "title": "The Tactical Battle",
+  "subtitle": "One goal. Ninety minutes of chess.",
+  "home": {
+   "id": "northbridge-united",
+   "name": "Northbridge United",
+   "short": "NBU",
+   "colour": "#0f766e"
+  },
+  "away": {
+   "id": "riverside-athletic",
+   "name": "Riverside Athletic",
+   "short": "RSA",
+   "colour": "#7c3aed"
+  },
+  "final_score": {
+   "home": 1,
+   "away": 0
+  },
+  "showcase": [
+   "Tactical explanations",
+   "Analyst mode",
+   "Explain simply"
+  ],
+  "venue": "Northgate Arena",
+  "events": 1599,
+  "replays": 1
+ },
+ {
+  "id": "m3-goal-festival",
+  "title": "The Goal Festival",
+  "subtitle": "Seven goals. Every one replayable.",
+  "home": {
+   "id": "eastport-wanderers",
+   "name": "Eastport Wanderers",
+   "short": "EPW",
+   "colour": "#ea580c"
+  },
+  "away": {
+   "id": "millbrook-town",
+   "name": "Millbrook Town",
+   "short": "MBT",
+   "colour": "#16a34a"
+  },
+  "final_score": {
+   "home": 4,
+   "away": 3
+  },
+  "showcase": [
+   "Luna Lens replays",
+   "Show me the sixth goal",
+   "Highlight recap"
+  ],
+  "venue": "Eastport Stadium",
+  "events": 1442,
+  "replays": 7
+ },
+ {
+  "id": "m4-underdog",
+  "title": "The Underdog",
+  "subtitle": "A quarter of the ball. All of the points.",
+  "home": {
+   "id": "westvale-city",
+   "name": "Westvale City",
+   "short": "WVC",
+   "colour": "#0284c7"
+  },
+  "away": {
+   "id": "ashford-athletic",
+   "name": "Ashford Athletic",
+   "short": "ASA",
+   "colour": "#ca8a04"
+  },
+  "final_score": {
+   "home": 0,
+   "away": 2
+  },
+  "showcase": [
+   "Possession \u2260 control",
+   "Claim verification",
+   "New-fan mode"
+  ],
+  "venue": "Ashford Lane",
+  "events": 1552,
+  "replays": 2
+ },
+ {
+  "id": "m5-controversial",
+  "title": "The Controversial Finish",
+  "subtitle": "A red card, a penalty and a stoppage-time winner.",
+  "home": {
+   "id": "stonebridge-albion",
+   "name": "Stonebridge Albion",
+   "short": "SBA",
+   "colour": "#be123c"
+  },
+  "away": {
+   "id": "port-sable",
+   "name": "Port Sable FC",
+   "short": "PSF",
+   "colour": "#334155"
+  },
+  "final_score": {
+   "home": 2,
+   "away": 1
+  },
+  "showcase": [
+   "Commentary verification",
+   "Evidence Referee",
+   "Editorial approval"
+  ],
+  "venue": "Stonebridge Road",
+  "events": 1513,
+  "replays": 3
+ }
+]
